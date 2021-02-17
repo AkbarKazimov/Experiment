@@ -1,4 +1,4 @@
-@prefix : <https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#> .
+@prefix : <https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -7,10 +7,10 @@
 @prefix process: <http://www.daml.org/services/owl-s/1.1/Process.owl> .
 @prefix profile: <http://www.daml.org/services/owl-s/1.1/Profile.owl> .
 @prefix service: <http://www.daml.org/services/owl-s/1.1/Service.owl> .
-@prefix welcome: <https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#> .
-@base <https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl> .
+@prefix welcome: <https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#> .
+@base <https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl> .
 
-<https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl> rdf:type owl:Ontology ;
+<https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl> rdf:type owl:Ontology ;
                                                                                owl:imports <http://www.daml.org/services/owl-s/1.1/Process.owl> ,
                                                                                            <http://www.daml.org/services/owl-s/1.1/Profile.owl> ,
                                                                                            <http://www.daml.org/services/owl-s/1.1/Service.owl> .
@@ -26,398 +26,398 @@
                                                            rdfs:range welcome:ContainerTranscription .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasAge
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasAge
 welcome:hasAge rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf welcome:hasPersonalInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasCity
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasCity
 welcome:hasCity rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf welcome:hasPhysicalAddress ;
                 rdfs:range welcome:City .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasClosingTime
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasClosingTime
 welcome:hasClosingTime rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf welcome:hasTemporalInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasCountry
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasCountry
 welcome:hasCountry rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf welcome:hasPhysicalAddress ;
                    rdfs:range welcome:Country .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasCountryOfOrigin
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasCountryOfOrigin
 welcome:hasCountryOfOrigin rdf:type owl:ObjectProperty ;
                            rdfs:subPropertyOf welcome:hasPersonalInformation ;
                            owl:inverseOf welcome:isCountryOriginOf ;
                            rdfs:range welcome:Country .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIP
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIP
 welcome:hasDIP rdf:type owl:ObjectProperty ;
                rdfs:domain welcome:SpeechActContainer ;
                rdfs:range welcome:DIP .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPAge
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPAge
 welcome:hasDIPAge rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPConfirmCommunication
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPConfirmCommunication
 welcome:hasDIPConfirmCommunication rdf:type owl:ObjectProperty ;
                                    rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPConfirmLanguage
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPConfirmLanguage
 welcome:hasDIPConfirmLanguage rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPConfirmedCommunciation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPConfirmedCommunciation
 welcome:hasDIPConfirmedCommunciation rdf:type owl:ObjectProperty ;
                                      rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPCountryOfOrigin
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPCountryOfOrigin
 welcome:hasDIPCountryOfOrigin rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPGreet
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPGreet
 welcome:hasDIPGreet rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformDocumentsNeeded
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformDocumentsNeeded
 welcome:hasDIPInformDocumentsNeeded rdf:type owl:ObjectProperty ;
                                     rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformLabourModule
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformLabourModule
 welcome:hasDIPInformLabourModule rdf:type owl:ObjectProperty ;
                                  rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformLabourModuleAddress
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformLabourModuleAddress
 welcome:hasDIPInformLabourModuleAddress rdf:type owl:ObjectProperty ;
                                         rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformLabourModuleHours
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformLabourModuleHours
 welcome:hasDIPInformLabourModuleHours rdf:type owl:ObjectProperty ;
                                       rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformLanguageModule
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformLanguageModule
 welcome:hasDIPInformLanguageModule rdf:type owl:ObjectProperty ;
                                    rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformLanguageModuleAddress
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformLanguageModuleAddress
 welcome:hasDIPInformLanguageModuleAddress rdf:type owl:ObjectProperty ;
                                           rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformLanguageModuleHours
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformLanguageModuleHours
 welcome:hasDIPInformLanguageModuleHours rdf:type owl:ObjectProperty ;
                                         rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformMessage
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformMessage
 welcome:hasDIPInformMessage rdf:type owl:ObjectProperty ;
                             rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformNeedRegistration
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformNeedRegistration
 welcome:hasDIPInformNeedRegistration rdf:type owl:ObjectProperty ;
                                      rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformOfficeHours
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformOfficeHours
 welcome:hasDIPInformOfficeHours rdf:type owl:ObjectProperty ;
                                 rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformOverview
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformOverview
 welcome:hasDIPInformOverview rdf:type owl:ObjectProperty ;
                              rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformResumeApplication
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformResumeApplication
 welcome:hasDIPInformResumeApplication rdf:type owl:ObjectProperty ;
                                       rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformSocietyModule
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformSocietyModule
 welcome:hasDIPInformSocietyModule rdf:type owl:ObjectProperty ;
                                   rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformSocietyModuleAddress
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformSocietyModuleAddress
 welcome:hasDIPInformSocietyModuleAddress rdf:type owl:ObjectProperty ;
                                          rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInformSocietyModuleHours
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInformSocietyModuleHours
 welcome:hasDIPInformSocietyModuleHours rdf:type owl:ObjectProperty ;
                                        rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPInstantiation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPInstantiation
 welcome:hasDIPInstantiation rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainBirthday
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainBirthday
 welcome:hasDIPObtainBirthday rdf:type owl:ObjectProperty ;
                              rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainCityOfBirth
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainCityOfBirth
 welcome:hasDIPObtainCityOfBirth rdf:type owl:ObjectProperty ;
                                 rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainCountryOfBirth
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainCountryOfBirth
 welcome:hasDIPObtainCountryOfBirth rdf:type owl:ObjectProperty ;
                                    rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainEMailNotifications
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainEMailNotifications
 welcome:hasDIPObtainEMailNotifications rdf:type owl:ObjectProperty ;
                                        rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainEmail
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainEmail
 welcome:hasDIPObtainEmail rdf:type owl:ObjectProperty ;
                           rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainFirstSurname
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainFirstSurname
 welcome:hasDIPObtainFirstSurname rdf:type owl:ObjectProperty ;
                                  rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainGender
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainGender
 welcome:hasDIPObtainGender rdf:type owl:ObjectProperty ;
                            rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainIDCountry
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainIDCountry
 welcome:hasDIPObtainIDCountry rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainIDNumber
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainIDNumber
 welcome:hasDIPObtainIDNumber rdf:type owl:ObjectProperty ;
                              rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainIDType
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainIDType
 welcome:hasDIPObtainIDType rdf:type owl:ObjectProperty ;
                            rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainInterest
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainInterest
 welcome:hasDIPObtainInterest rdf:type owl:ObjectProperty ;
                              rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainLandline
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainLandline
 welcome:hasDIPObtainLandline rdf:type owl:ObjectProperty ;
                              rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainMobilePhone
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainMobilePhone
 welcome:hasDIPObtainMobilePhone rdf:type owl:ObjectProperty ;
                                 rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainName
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainName
 welcome:hasDIPObtainName rdf:type owl:ObjectProperty ;
                          rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainNationality
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainNationality
 welcome:hasDIPObtainNationality rdf:type owl:ObjectProperty ;
                                 rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainNotificationPreferences
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainNotificationPreferences
 welcome:hasDIPObtainNotificationPreferences rdf:type owl:ObjectProperty ;
                                             rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainRegistrationStatus
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainRegistrationStatus
 welcome:hasDIPObtainRegistrationStatus rdf:type owl:ObjectProperty ;
                                        rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainResidenceAddressCity
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainResidenceAddressCity
 welcome:hasDIPObtainResidenceAddressCity rdf:type owl:ObjectProperty ;
                                          rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainResidenceAddressNumber
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainResidenceAddressNumber
 welcome:hasDIPObtainResidenceAddressNumber rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainResidenceAddressStreet
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainResidenceAddressStreet
 welcome:hasDIPObtainResidenceAddressStreet rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainSMSNotifications
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainSMSNotifications
 welcome:hasDIPObtainSMSNotifications rdf:type owl:ObjectProperty ;
                                      rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainSecondSurname
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainSecondSurname
 welcome:hasDIPObtainSecondSurname rdf:type owl:ObjectProperty ;
                                   rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainStreetName
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainStreetName
 welcome:hasDIPObtainStreetName rdf:type owl:ObjectProperty ;
                                rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainStreetNumber
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainStreetNumber
 welcome:hasDIPObtainStreetNumber rdf:type owl:ObjectProperty ;
                                  rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPObtainStreetType
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPObtainStreetType
 welcome:hasDIPObtainStreetType rdf:type owl:ObjectProperty ;
                                rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPParameter
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPParameter
 welcome:hasDIPParameter rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPTimeArrivalCurrentResidence
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPTimeArrivalCurrentResidence
 welcome:hasDIPTimeArrivalCurrentResidence rdf:type owl:ObjectProperty ;
                                           rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPinformOfficeAddress
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPinformOfficeAddress
 welcome:hasDIPinformOfficeAddress rdf:type owl:ObjectProperty ;
                                   rdfs:subPropertyOf welcome:hasDIPParameter .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDetectedEntity
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDetectedEntity
 welcome:hasDetectedEntity rdf:type owl:ObjectProperty ;
                           rdfs:domain welcome:SpeechActContainer ;
                           rdfs:range welcome:DetectedEntity .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDetectedRelation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDetectedRelation
 welcome:hasDetectedRelation rdf:type owl:ObjectProperty ;
                             rdfs:domain welcome:SpeechActContainer ;
                             rdfs:range welcome:DetectedRelation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDetectedRole
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDetectedRole
 welcome:hasDetectedRole rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDialogueTurn
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDialogueTurn
 welcome:hasDialogueTurn rdf:type owl:ObjectProperty ;
                         rdfs:domain welcome:DialogueSession ;
                         rdfs:range welcome:DialogueTurn .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDialogueUser
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDialogueUser
 welcome:hasDialogueUser rdf:type owl:ObjectProperty ;
                         owl:inverseOf welcome:isInvolvedInDialogueSession ;
                         rdfs:domain welcome:DialogueSession ;
                         rdfs:range welcome:DialogueUser .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasFirstName
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasFirstName
 welcome:hasFirstName rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf welcome:hasPersonalInformation ;
                      owl:inverseOf welcome:isFirstNameOf ;
                      rdfs:domain welcome:Person .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasHostingInfo
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasHostingInfo
 welcome:hasHostingInfo rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf welcome:hasPersonalInformation ;
                        owl:inverseOf welcome:isHostingInfoOf .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasInferredSpeechActObject
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasInferredSpeechActObject
 welcome:hasInferredSpeechActObject rdf:type owl:ObjectProperty ;
                                    rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasInfoForDMS
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasInfoForDMS
 welcome:hasInfoForDMS rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasInputRDFContents
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasInputRDFContents
 welcome:hasInputRDFContents rdf:type owl:ObjectProperty ;
                             rdfs:domain welcome:Slot .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasLastName
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasLastName
 welcome:hasLastName rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf welcome:hasPersonalInformation ;
                     owl:inverseOf welcome:isLastNameOf ;
                     rdfs:domain welcome:Person .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasMobilePhone
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasMobilePhone
 welcome:hasMobilePhone rdf:type owl:ObjectProperty ;
                        rdfs:domain welcome:Organisation ,
                                    welcome:Person .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasName
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasName
 welcome:hasName rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf welcome:hasPersonalInformation ;
                 owl:inverseOf welcome:isNameOf .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasNextContainer
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasNextContainer
 welcome:hasNextContainer rdf:type owl:ObjectProperty ;
                          rdfs:domain welcome:SpeechActContainer ;
                          rdfs:range welcome:SpeechActContainer .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasNextDIP
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasNextDIP
 welcome:hasNextDIP rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasOntologyType
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasOntologyType
 welcome:hasOntologyType rdf:type owl:ObjectProperty ;
                         rdfs:domain welcome:Slot .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasOpeningTime
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasOpeningTime
 welcome:hasOpeningTime rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf welcome:hasTemporalInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasOperatingDay
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasOperatingDay
 welcome:hasOperatingDay rdf:type owl:ObjectProperty ;
                         rdfs:subPropertyOf welcome:hasTemporalInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasParticipant
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasParticipant
 welcome:hasParticipant rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasPersonalInformation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasPersonalInformation
 welcome:hasPersonalInformation rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasPhysicalAddress
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasPhysicalAddress
 welcome:hasPhysicalAddress rdf:type owl:ObjectProperty ;
                            rdfs:subPropertyOf owl:topObjectProperty ;
                            rdfs:domain welcome:Organisation ,
@@ -425,201 +425,201 @@ welcome:hasPhysicalAddress rdf:type owl:ObjectProperty ;
                            rdfs:range welcome:PhysicalAddress .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasPredicateRelation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasPredicateRelation
 welcome:hasPredicateRelation rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasRequestType
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasRequestType
 welcome:hasRequestType rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasSlot
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasSlot
 welcome:hasSlot rdf:type owl:ObjectProperty ;
                 rdfs:domain welcome:DIP ;
                 rdfs:range welcome:Slot .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasSlotTemplate
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasSlotTemplate
 welcome:hasSlotTemplate rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasSpeechActAgent
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasSpeechActAgent
 welcome:hasSpeechActAgent rdf:type owl:ObjectProperty ;
                           rdfs:range welcome:DialogueUser .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasSpeechActContainer
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasSpeechActContainer
 welcome:hasSpeechActContainer rdf:type owl:ObjectProperty ;
                               rdfs:domain welcome:DialogueTurn ;
                               rdfs:range welcome:SpeechActContainer .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasSpeechActObject
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasSpeechActObject
 welcome:hasSpeechActObject rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasSpeechActType
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasSpeechActType
 welcome:hasSpeechActType rdf:type owl:ObjectProperty ;
                          rdfs:domain welcome:SpeechActContainer ;
                          rdfs:range welcome:SpeechAct .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasStatus
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasStatus
 welcome:hasStatus rdf:type owl:ObjectProperty ;
                   rdfs:domain welcome:DIP ,
                               welcome:Slot ;
                   rdfs:range welcome:DIPStatus .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasStayingPeriod
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasStayingPeriod
 welcome:hasStayingPeriod rdf:type owl:ObjectProperty ;
                          rdfs:subPropertyOf welcome:hasTemporalInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasStreetName
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasStreetName
 welcome:hasStreetName rdf:type owl:ObjectProperty ;
                       rdfs:subPropertyOf welcome:hasPhysicalAddress ;
                       rdfs:range welcome:StreetName .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasStreetNumber
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasStreetNumber
 welcome:hasStreetNumber rdf:type owl:ObjectProperty ;
                         rdfs:subPropertyOf welcome:hasPhysicalAddress ;
                         rdfs:range welcome:StreetNumber .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasSystemResponse
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasSystemResponse
 welcome:hasSystemResponse rdf:type owl:ObjectProperty ;
                           owl:inverseOf welcome:repliesToUserResponse ;
                           rdfs:domain welcome:DialogueUserTurn ;
                           rdfs:range welcome:DialogueSystemTurn .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasTelephone
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasTelephone
 welcome:hasTelephone rdf:type owl:ObjectProperty ;
                      rdfs:domain welcome:Organisation ,
                                  welcome:Person .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasTemporalInformation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasTemporalInformation
 welcome:hasTemporalInformation rdf:type owl:ObjectProperty ;
                                rdfs:range welcome:Temporal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasTurnTranscription
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasTurnTranscription
 welcome:hasTurnTranscription rdf:type owl:ObjectProperty ;
                              owl:inverseOf welcome:isTranscriptionOfTurn ;
                              rdfs:domain welcome:DialogueTurn ;
                              rdfs:range welcome:TurnTranscrption .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasWebpage
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasWebpage
 welcome:hasWebpage rdf:type owl:ObjectProperty ;
                    rdfs:domain welcome:Webpage .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasZipCode
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasZipCode
 welcome:hasZipCode rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf welcome:hasPhysicalAddress ;
                    rdfs:range welcome:ZipCode .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hostedBy
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hostedBy
 welcome:hostedBy rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isCountryOriginOf
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isCountryOriginOf
 welcome:isCountryOriginOf rdf:type owl:ObjectProperty ;
                           rdfs:subPropertyOf welcome:isPersonalInformationOf .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isEntity1
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isEntity1
 welcome:isEntity1 rdf:type owl:ObjectProperty ;
                   rdfs:domain welcome:DetectedRelation ;
                   rdfs:range welcome:DetectedEntity .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isEntity2
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isEntity2
 welcome:isEntity2 rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isFirstNameOf
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isFirstNameOf
 welcome:isFirstNameOf rdf:type owl:ObjectProperty ;
                       rdfs:subPropertyOf welcome:isPersonalInformationOf .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isHostingInfoOf
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isHostingInfoOf
 welcome:isHostingInfoOf rdf:type owl:ObjectProperty ;
                         rdfs:subPropertyOf welcome:isPersonalInformationOf .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isIDof
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isIDof
 welcome:isIDof rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isInvolvedInDialogueSession
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isInvolvedInDialogueSession
 welcome:isInvolvedInDialogueSession rdf:type owl:ObjectProperty ;
                                     rdfs:domain welcome:DialogueUser ;
                                     rdfs:range welcome:DialogueSession .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isLastNameOf
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isLastNameOf
 welcome:isLastNameOf rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf welcome:isPersonalInformationOf .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isNameOf
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isNameOf
 welcome:isNameOf rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf welcome:isPersonalInformationOf .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isPersonalInformationOf
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isPersonalInformationOf
 welcome:isPersonalInformationOf rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isPhysicalAddressOf
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isPhysicalAddressOf
 welcome:isPhysicalAddressOf rdf:type owl:ObjectProperty ;
                             rdfs:subPropertyOf welcome:isPersonalInformationOf .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isPovidedBy
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isPovidedBy
 welcome:isPovidedBy rdf:type owl:ObjectProperty ;
                     owl:inverseOf welcome:offersCourse .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isRegistered
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isRegistered
 welcome:isRegistered rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf owl:topObjectProperty ;
                      rdfs:domain <http://www.daml.org/services/owl-s/1.1/Service.owl#Service> .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isRelatedToUser
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isRelatedToUser
 welcome:isRelatedToUser rdf:type owl:ObjectProperty ;
                         rdfs:domain <http://www.daml.org/services/owl-s/1.1/Service.owl#Service> ;
                         rdfs:range welcome:DialogueUser .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isStayingPeriodOf
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isStayingPeriodOf
 welcome:isStayingPeriodOf rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isTranscriptionOfContainer
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isTranscriptionOfContainer
 welcome:isTranscriptionOfContainer rdf:type owl:ObjectProperty ;
                                    rdfs:domain welcome:Transcription ;
                                    rdfs:range welcome:SpeechActContainer .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isTranscriptionOfTurn
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isTranscriptionOfTurn
 welcome:isTranscriptionOfTurn rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#offersCourse
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#offersCourse
 welcome:offersCourse rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#repliesToUserResponse
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#repliesToUserResponse
 welcome:repliesToUserResponse rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf owl:topObjectProperty ;
                               rdfs:domain welcome:DialogueSystemTurn ;
@@ -630,17 +630,17 @@ welcome:repliesToUserResponse rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DIPId
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DIPId
 welcome:DIPId rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#confidenceScore
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#confidenceScore
 welcome:confidenceScore rdf:type owl:DatatypeProperty ;
                         rdfs:domain welcome:Slot ;
                         rdfs:range xsd:integer .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#coordinates
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#coordinates
 welcome:coordinates rdf:type owl:DatatypeProperty ;
                     rdfs:subPropertyOf owl:topDataProperty ;
                     rdfs:domain welcome:Location ,
@@ -648,174 +648,174 @@ welcome:coordinates rdf:type owl:DatatypeProperty ;
                     rdfs:label "coordinates" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#fromPeriod
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#fromPeriod
 welcome:fromPeriod rdf:type owl:DatatypeProperty ;
                    rdfs:subPropertyOf owl:topDataProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasAltAddress
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasAltAddress
 welcome:hasAltAddress rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasAltCity
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasAltCity
 welcome:hasAltCity rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasAltClosingTime
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasAltClosingTime
 welcome:hasAltClosingTime rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasAltName
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasAltName
 welcome:hasAltName rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasAltOpeningTime
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasAltOpeningTime
 welcome:hasAltOpeningTime rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasAltPhone
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasAltPhone
 welcome:hasAltPhone rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasAltStreetNumber
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasAltStreetNumber
 welcome:hasAltStreetNumber rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasAltWebPage
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasAltWebPage
 welcome:hasAltWebPage rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasAltZipCode
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasAltZipCode
 welcome:hasAltZipCode rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasContainerId
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasContainerId
 welcome:hasContainerId rdf:type owl:DatatypeProperty ;
                        rdfs:domain welcome:SpeechActContainer .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasCourseName
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasCourseName
 welcome:hasCourseName rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDIPLanguageScore
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDIPLanguageScore
 welcome:hasDIPLanguageScore rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDipType
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDipType
 welcome:hasDipType rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasDuration
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasDuration
 welcome:hasDuration rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasEntityAnchor
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasEntityAnchor
 welcome:hasEntityAnchor rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasEntityConfidence
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasEntityConfidence
 welcome:hasEntityConfidence rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasEntityId
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasEntityId
 welcome:hasEntityId rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasEntityLink
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasEntityLink
 welcome:hasEntityLink rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasEntityType
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasEntityType
 welcome:hasEntityType rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasNumberAttempts
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasNumberAttempts
 welcome:hasNumberAttempts rdf:type owl:DatatypeProperty ;
                           rdfs:domain welcome:Slot ;
                           rdfs:range xsd:integer .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasNumberHours
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasNumberHours
 welcome:hasNumberHours rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasRelationId
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasRelationId
 welcome:hasRelationId rdf:type owl:DatatypeProperty .
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasTimestamp
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasTimestamp
 welcome:hasTimestamp rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hasUserId
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hasUserId
 welcome:hasUserId rdf:type owl:DatatypeProperty ;
                   rdfs:domain welcome:DialogueUser .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#heldRoleFrom
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#heldRoleFrom
 welcome:heldRoleFrom rdf:type owl:DatatypeProperty ;
                      rdfs:subPropertyOf welcome:fromPeriod ;
                      rdfs:range xsd:integer .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#heldRoleTo
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#heldRoleTo
 welcome:heldRoleTo rdf:type owl:DatatypeProperty ;
                    rdfs:subPropertyOf welcome:toPeriod ;
                    rdfs:range xsd:integer .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isActive
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isActive
 welcome:isActive rdf:type owl:DatatypeProperty ;
                  rdfs:domain welcome:DIP ;
                  rdfs:range xsd:boolean .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isActiveSession
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isActiveSession
 welcome:isActiveSession rdf:type owl:DatatypeProperty ;
                         rdfs:domain welcome:DialogueSession ;
                         rdfs:range xsd:boolean .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isAdult
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isAdult
 welcome:isAdult rdf:type owl:DatatypeProperty ;
                 rdfs:range xsd:boolean .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isLastContainer
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isLastContainer
 welcome:isLastContainer rdf:type owl:DatatypeProperty ;
                         rdfs:domain welcome:SpeechActContainer ;
                         rdfs:range xsd:boolean .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isOptional
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isOptional
 welcome:isOptional rdf:type owl:DatatypeProperty ;
                    rdfs:domain welcome:Slot .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#isUnaccompanied
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#isUnaccompanied
 welcome:isUnaccompanied rdf:type owl:DatatypeProperty ;
                         rdfs:range xsd:boolean .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#lat
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#lat
 welcome:lat rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf welcome:coordinates ;
             rdfs:range xsd:double ;
             rdfs:label "latitude"^^xsd:string .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#long
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#long
 welcome:long rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf welcome:coordinates ;
              rdfs:range xsd:double ;
              rdfs:label "longitude"^^xsd:string .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#timestamp
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#timestamp
 welcome:timestamp rdf:type owl:DatatypeProperty .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#toPeriod
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#toPeriod
 welcome:toPeriod rdf:type owl:DatatypeProperty ;
                  rdfs:subPropertyOf owl:topDataProperty .
 
@@ -828,180 +828,180 @@ welcome:toPeriod rdf:type owl:DatatypeProperty ;
 <http://www.daml.org/services/owl-s/1.1/Profile.owl#Profile> rdf:type owl:Class .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#AccessCatalanTraining
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#AccessCatalanTraining
 welcome:AccessCatalanTraining rdf:type owl:Class ;
                               rdfs:subClassOf welcome:Training .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#AccessLabourTraining
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#AccessLabourTraining
 welcome:AccessLabourTraining rdf:type owl:Class ;
                              rdfs:subClassOf welcome:Training .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#AccessSocietyTraining
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#AccessSocietyTraining
 welcome:AccessSocietyTraining rdf:type owl:Class ;
                               rdfs:subClassOf welcome:Training .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#AccessSpanishTraining
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#AccessSpanishTraining
 welcome:AccessSpanishTraining rdf:type owl:Class ;
                               rdfs:subClassOf welcome:Training .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#AddressInfo
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#AddressInfo
 welcome:AddressInfo rdf:type owl:Class ;
                     rdfs:subClassOf welcome:ContactInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#AsylumClaim
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#AsylumClaim
 welcome:AsylumClaim rdf:type owl:Class ;
                     rdfs:subClassOf welcome:Other .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Birthday
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Birthday
 welcome:Birthday rdf:type owl:Class ;
                  rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Building
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Building
 welcome:Building rdf:type owl:Class ;
                  rdfs:subClassOf welcome:PhysicalAddress .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#BuildingName
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#BuildingName
 welcome:BuildingName rdf:type owl:Class ;
                      rdfs:subClassOf welcome:AddressInfo .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#BuildingType
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#BuildingType
 welcome:BuildingType rdf:type owl:Class ;
                      rdfs:subClassOf welcome:AddressInfo .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#CatalanCourse
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#CatalanCourse
 welcome:CatalanCourse rdf:type owl:Class ;
                       rdfs:subClassOf welcome:Training .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#City
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#City
 welcome:City rdf:type owl:Class ;
              rdfs:subClassOf welcome:PhysicalAddress .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#CityOfBirth
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#CityOfBirth
 welcome:CityOfBirth rdf:type owl:Class ;
                     rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#CompletionYear
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#CompletionYear
 welcome:CompletionYear rdf:type owl:Class ;
                        rdfs:subClassOf welcome:Education .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#ContactInformation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#ContactInformation
 welcome:ContactInformation rdf:type owl:Class ;
                            rdfs:subClassOf welcome:Descriptors .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#ContainerTranscription
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#ContainerTranscription
 welcome:ContainerTranscription rdf:type owl:Class ;
                                rdfs:subClassOf welcome:Transcription .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#ContextInformation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#ContextInformation
 welcome:ContextInformation rdf:type owl:Class ;
                            rdfs:subClassOf welcome:Descriptors .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Coordinates
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Coordinates
 welcome:Coordinates rdf:type owl:Class ;
                     rdfs:subClassOf welcome:ContactInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Country
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Country
 welcome:Country rdf:type owl:Class ;
                 rdfs:subClassOf welcome:PhysicalAddress .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#CountryOfBirth
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#CountryOfBirth
 welcome:CountryOfBirth rdf:type owl:Class ;
                        rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Course
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Course
 welcome:Course rdf:type owl:Class ;
                rdfs:subClassOf welcome:Education .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#CourseInstitution
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#CourseInstitution
 welcome:CourseInstitution rdf:type owl:Class ;
                           rdfs:subClassOf welcome:Education .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#CourseSociety
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#CourseSociety
 welcome:CourseSociety rdf:type owl:Class ;
                       rdfs:subClassOf welcome:Training .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DIP
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DIP
 welcome:DIP rdf:type owl:Class ;
             rdfs:subClassOf welcome:DialogueCommunication .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DIPParameters
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DIPParameters
 welcome:DIPParameters rdf:type owl:Class ;
                       rdfs:subClassOf welcome:DialogueCommunication .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DIPStatus
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DIPStatus
 welcome:DIPStatus rdf:type owl:Class ;
                   rdfs:subClassOf welcome:DIPParameters .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DIPType
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DIPType
 welcome:DIPType rdf:type owl:Class ;
                 rdfs:subClassOf welcome:DIPParameters .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Day
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Day
 welcome:Day rdf:type owl:Class ;
             rdfs:subClassOf welcome:Temporal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Descriptors
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Descriptors
 welcome:Descriptors rdf:type owl:Class .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DetectedEntity
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DetectedEntity
 welcome:DetectedEntity rdf:type owl:Class ;
                        rdfs:subClassOf welcome:DialogueCommunication .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DetectedRelation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DetectedRelation
 welcome:DetectedRelation rdf:type owl:Class ;
                          rdfs:subClassOf welcome:DialogueCommunication .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Dialogue
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Dialogue
 welcome:Dialogue rdf:type owl:Class ;
                  rdfs:subClassOf welcome:DialogueCommunication .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DialogueCommunication
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DialogueCommunication
 welcome:DialogueCommunication rdf:type owl:Class .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DialogueSession
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DialogueSession
 welcome:DialogueSession rdf:type owl:Class ;
                         rdfs:subClassOf welcome:Dialogue .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DialogueSystemTurn
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DialogueSystemTurn
 welcome:DialogueSystemTurn rdf:type owl:Class ;
                            rdfs:subClassOf welcome:DialogueTurn .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DialogueTurn
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DialogueTurn
 welcome:DialogueTurn rdf:type owl:Class ;
                      rdfs:subClassOf welcome:Dialogue ,
                                      [ rdf:type owl:Restriction ;
@@ -1010,209 +1010,209 @@ welcome:DialogueTurn rdf:type owl:Class ;
                                      ] .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DialogueUser
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DialogueUser
 welcome:DialogueUser rdf:type owl:Class ;
                      rdfs:subClassOf welcome:Person .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DialogueUserTurn
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DialogueUserTurn
 welcome:DialogueUserTurn rdf:type owl:Class ;
                          rdfs:subClassOf welcome:DialogueTurn .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#DoorNumber
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#DoorNumber
 welcome:DoorNumber rdf:type owl:Class ;
                    rdfs:subClassOf welcome:AddressInfo .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Duration
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Duration
 welcome:Duration rdf:type owl:Class ;
                  rdfs:subClassOf welcome:Education .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#E-mail
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#E-mail
 welcome:E-mail rdf:type owl:Class ;
                rdfs:subClassOf welcome:InternetAddress ,
                                welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#E-mailNotification
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#E-mailNotification
 welcome:E-mailNotification rdf:type owl:Class ;
                            rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Education
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Education
 welcome:Education rdf:type owl:Class ;
                   rdfs:subClassOf welcome:PersonalInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Entrance
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Entrance
 welcome:Entrance rdf:type owl:Class ;
                  rdfs:subClassOf welcome:AddressInfo .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#FirstSurname
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#FirstSurname
 welcome:FirstSurname rdf:type owl:Class ;
                      rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#FloorNumber
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#FloorNumber
 welcome:FloorNumber rdf:type owl:Class ;
                     rdfs:subClassOf welcome:AddressInfo .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Gender
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Gender
 welcome:Gender rdf:type owl:Class ;
                rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#GovermentalOrganisation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#GovermentalOrganisation
 welcome:GovermentalOrganisation rdf:type owl:Class ;
                                 rdfs:subClassOf welcome:Organisation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#HostingInformation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#HostingInformation
 welcome:HostingInformation rdf:type owl:Class ;
                            rdfs:subClassOf welcome:Descriptors .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#IDCountry
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#IDCountry
 welcome:IDCountry rdf:type owl:Class ;
                   rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#IDNumber
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#IDNumber
 welcome:IDNumber rdf:type owl:Class ;
                  rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#IDType
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#IDType
 welcome:IDType rdf:type owl:Class ;
                rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Illiteracy
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Illiteracy
 welcome:Illiteracy rdf:type owl:Class ;
                    rdfs:subClassOf welcome:Other .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#InterestRegistration
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#InterestRegistration
 welcome:InterestRegistration rdf:type owl:Class .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#InternetAddress
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#InternetAddress
 welcome:InternetAddress rdf:type owl:Class ;
                         rdfs:subClassOf welcome:ContactInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#KnowledgeCatalan
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#KnowledgeCatalan
 welcome:KnowledgeCatalan rdf:type owl:Class ;
                          rdfs:subClassOf welcome:Training .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#KnowledgeLabour
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#KnowledgeLabour
 welcome:KnowledgeLabour rdf:type owl:Class ;
                         rdfs:subClassOf welcome:Training .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#KnowledgeSociety
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#KnowledgeSociety
 welcome:KnowledgeSociety rdf:type owl:Class ;
                          rdfs:subClassOf welcome:Training .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#KnowledgeSpanish
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#KnowledgeSpanish
 welcome:KnowledgeSpanish rdf:type owl:Class ;
                          rdfs:subClassOf welcome:Training .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#LabourMarketCourses
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#LabourMarketCourses
 welcome:LabourMarketCourses rdf:type owl:Class ;
                             rdfs:subClassOf welcome:Training .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#LabourModule
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#LabourModule
 welcome:LabourModule rdf:type owl:Class ;
                      rdfs:subClassOf welcome:Modules .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Landline
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Landline
 welcome:Landline rdf:type owl:Class ;
                  rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Language
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Language
 welcome:Language rdf:type owl:Class .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#LanguageModule
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#LanguageModule
 welcome:LanguageModule rdf:type owl:Class ;
                        rdfs:subClassOf welcome:Modules .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#LearningHandicap
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#LearningHandicap
 welcome:LearningHandicap rdf:type owl:Class ;
                          rdfs:subClassOf welcome:Other .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Location
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Location
 welcome:Location rdf:type owl:Class ;
                  rdfs:subClassOf welcome:ContextInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#MaritalStatus
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#MaritalStatus
 welcome:MaritalStatus rdf:type owl:Class ;
                       rdfs:subClassOf welcome:Other .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#MobilePhone
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#MobilePhone
 welcome:MobilePhone rdf:type owl:Class ;
                     rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Mobile_phone_number
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Mobile_phone_number
 welcome:Mobile_phone_number rdf:type owl:Class ;
                             rdfs:subClassOf welcome:PhysicalAddress .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Modules
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Modules
 welcome:Modules rdf:type owl:Class .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Municipality
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Municipality
 welcome:Municipality rdf:type owl:Class ;
                      rdfs:subClassOf welcome:AddressInfo .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Name
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Name
 welcome:Name rdf:type owl:Class ;
              rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Nationality
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Nationality
 welcome:Nationality rdf:type owl:Class ;
                     rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#NotificationPreferences
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#NotificationPreferences
 welcome:NotificationPreferences rdf:type owl:Class ;
                                 rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Office
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Office
 welcome:Office rdf:type owl:Class ;
                rdfs:subClassOf welcome:GovermentalOrganisation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Organisation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Organisation
 welcome:Organisation rdf:type owl:Class .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Other
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Other
 welcome:Other rdf:type owl:Class ;
               rdfs:subClassOf welcome:PersonalInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Participant
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Participant
 welcome:Participant rdf:type owl:Class ;
                     rdfs:subClassOf welcome:DialogueCommunication ,
                                     [ rdf:type owl:Restriction ;
@@ -1225,116 +1225,116 @@ welcome:Participant rdf:type owl:Class ;
                                     ] .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Person
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Person
 welcome:Person rdf:type owl:Class ;
                rdfs:isDefinedBy "http://xmlns.com/foaf/0.1" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Personal
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Personal
 welcome:Personal rdf:type owl:Class ;
                  rdfs:subClassOf welcome:PersonalInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#PersonalInformation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#PersonalInformation
 welcome:PersonalInformation rdf:type owl:Class ;
                             rdfs:subClassOf welcome:Descriptors .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#PhysicalAddress
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#PhysicalAddress
 welcome:PhysicalAddress rdf:type owl:Class ;
                         rdfs:subClassOf welcome:ContactInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#PlannerRequest
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#PlannerRequest
 welcome:PlannerRequest rdf:type owl:Class ;
                        rdfs:subClassOf welcome:Request .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#PostCode
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#PostCode
 welcome:PostCode rdf:type owl:Class ;
                  rdfs:subClassOf welcome:AddressInfo .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#PreviousResidenceCatalonia
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#PreviousResidenceCatalonia
 welcome:PreviousResidenceCatalonia rdf:type owl:Class ;
                                    rdfs:subClassOf welcome:Other .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#PreviousResidenceOther
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#PreviousResidenceOther
 welcome:PreviousResidenceOther rdf:type owl:Class ;
                                rdfs:subClassOf welcome:Other .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#PreviousResidenceSpain
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#PreviousResidenceSpain
 welcome:PreviousResidenceSpain rdf:type owl:Class ;
                                rdfs:subClassOf welcome:Other .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Province
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Province
 welcome:Province rdf:type owl:Class ;
                  rdfs:subClassOf welcome:AddressInfo .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Registered
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Registered
 welcome:Registered rdf:type owl:Class .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#RegistrationOffice
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#RegistrationOffice
 welcome:RegistrationOffice rdf:type owl:Class ;
                            rdfs:subClassOf welcome:Office .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#RegistrationYear
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#RegistrationYear
 welcome:RegistrationYear rdf:type owl:Class ;
                          rdfs:subClassOf welcome:Other .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Request
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Request
 welcome:Request rdf:type owl:Class .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Role
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Role
 welcome:Role rdf:type owl:Class ;
              rdfs:subClassOf welcome:DialogueCommunication .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#SMSNotification
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#SMSNotification
 welcome:SMSNotification rdf:type owl:Class ;
                         rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#SecondSurname
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#SecondSurname
 welcome:SecondSurname rdf:type owl:Class ;
                       rdfs:subClassOf welcome:Personal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#ServiceRequest
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#ServiceRequest
 welcome:ServiceRequest rdf:type owl:Class ;
                        rdfs:subClassOf welcome:Request .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Slot
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Slot
 welcome:Slot rdf:type owl:Class ;
              rdfs:subClassOf welcome:DialogueCommunication .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#SocietyModule
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#SocietyModule
 welcome:SocietyModule rdf:type owl:Class ;
                       rdfs:subClassOf welcome:Modules .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#SpanishCourse
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#SpanishCourse
 welcome:SpanishCourse rdf:type owl:Class ;
                       rdfs:subClassOf welcome:Training .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#SpatialLocation
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#SpatialLocation
 welcome:SpatialLocation rdf:type owl:Class ;
                         rdfs:subClassOf welcome:Location ;
                         rdfs:comment "Spatial information is the information of the physical address. Due to this, this is associated with an address name, number, city, country and zip code." .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#SpeechAct
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#SpeechAct
 welcome:SpeechAct rdf:type owl:Class ;
                   rdfs:subClassOf welcome:DialogueCommunication ,
                                   [ rdf:type owl:Restriction ;
@@ -1344,100 +1344,100 @@ welcome:SpeechAct rdf:type owl:Class ;
                   rdfs:comment "" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#SpeechActContainer
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#SpeechActContainer
 welcome:SpeechActContainer rdf:type owl:Class ;
                            rdfs:subClassOf welcome:Dialogue ;
                            rdfs:label "SpeechActContainer"^^xsd:string .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#StayingPeriod
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#StayingPeriod
 welcome:StayingPeriod rdf:type owl:Class ;
                       rdfs:subClassOf welcome:Temporal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#StreetName
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#StreetName
 welcome:StreetName rdf:type owl:Class ;
                    rdfs:subClassOf welcome:AddressInfo ,
                                    welcome:PhysicalAddress .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#StreetNumber
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#StreetNumber
 welcome:StreetNumber rdf:type owl:Class ;
                      rdfs:subClassOf welcome:AddressInfo ,
                                      welcome:PhysicalAddress .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#StreetType
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#StreetType
 welcome:StreetType rdf:type owl:Class ;
                    rdfs:subClassOf welcome:AddressInfo .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#SystemDemand
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#SystemDemand
 welcome:SystemDemand rdf:type owl:Class ;
                      rdfs:subClassOf welcome:DIPType .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#SystemInfo
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#SystemInfo
 welcome:SystemInfo rdf:type owl:Class ;
                    rdfs:subClassOf welcome:DIPType .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#SystemLanguage
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#SystemLanguage
 welcome:SystemLanguage rdf:type owl:Class ;
                        rdfs:subClassOf welcome:Language .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Telephone_number
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Telephone_number
 welcome:Telephone_number rdf:type owl:Class ;
                          rdfs:subClassOf welcome:PhysicalAddress .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Temporal
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Temporal
 welcome:Temporal rdf:type owl:Class ;
                  rdfs:subClassOf welcome:ContextInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Time
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Time
 welcome:Time rdf:type owl:Class ;
              rdfs:subClassOf welcome:Temporal .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Training
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Training
 welcome:Training rdf:type owl:Class ;
                  rdfs:subClassOf welcome:PersonalInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#TrainingOffice
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#TrainingOffice
 welcome:TrainingOffice rdf:type owl:Class ;
                        rdfs:subClassOf welcome:Office .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Transcription
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Transcription
 welcome:Transcription rdf:type owl:Class ;
                       rdfs:subClassOf welcome:DialogueCommunication .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#TurnTranscrption
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#TurnTranscrption
 welcome:TurnTranscrption rdf:type owl:Class ;
                          rdfs:subClassOf welcome:Transcription .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Webpage
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Webpage
 welcome:Webpage rdf:type owl:Class ;
                 rdfs:subClassOf welcome:InternetAddress .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#YearArrival
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#YearArrival
 welcome:YearArrival rdf:type owl:Class ;
                     rdfs:subClassOf welcome:Other .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#ZipCode
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#ZipCode
 welcome:ZipCode rdf:type owl:Class ;
                 rdfs:subClassOf welcome:PhysicalAddress .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#literacy
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#literacy
 welcome:literacy rdf:type owl:Class ;
                  rdfs:subClassOf welcome:Other .
 
@@ -1446,190 +1446,190 @@ welcome:literacy rdf:type owl:Class ;
 #    Individuals
 #################################################################
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Completed
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Completed
 welcome:Completed rdf:type owl:NamedIndividual ,
                            welcome:DIPStatus .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Crta._de_Montcada
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Crta._de_Montcada
 welcome:Crta._de_Montcada rdf:type owl:NamedIndividual ,
                                    welcome:StreetName .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#FailedAnalysis
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#FailedAnalysis
 welcome:FailedAnalysis rdf:type owl:NamedIndividual ,
                                 welcome:DIPStatus .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Friday
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Friday
 welcome:Friday rdf:type owl:NamedIndividual ,
                         welcome:Day .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Monday
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Monday
 welcome:Monday rdf:type owl:NamedIndividual ,
                         welcome:Day .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#OAC_Cambrils
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#OAC_Cambrils
 welcome:OAC_Cambrils rdf:type owl:NamedIndividual ,
                               welcome:RegistrationOffice .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#OAC_Districte2
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#OAC_Districte2
 welcome:OAC_Districte2 rdf:type owl:NamedIndividual ,
                                 welcome:RegistrationOffice .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#OAC_Districte3
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#OAC_Districte3
 welcome:OAC_Districte3 rdf:type owl:NamedIndividual ,
                                 welcome:RegistrationOffice .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#OAC_Districte4
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#OAC_Districte4
 welcome:OAC_Districte4 rdf:type owl:NamedIndividual ,
                                 welcome:RegistrationOffice .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#OAC_Districte5
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#OAC_Districte5
 welcome:OAC_Districte5 rdf:type owl:NamedIndividual ,
                                 welcome:RegistrationOffice .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#OAC_Districte6
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#OAC_Districte6
 welcome:OAC_Districte6 rdf:type owl:NamedIndividual ,
                                 welcome:RegistrationOffice .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#OAC_Districte7
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#OAC_Districte7
 welcome:OAC_Districte7 rdf:type owl:NamedIndividual ,
                                 welcome:RegistrationOffice .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#OAC_DretsSocials
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#OAC_DretsSocials
 welcome:OAC_DretsSocials rdf:type owl:NamedIndividual ,
                                   welcome:RegistrationOffice .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#OAC_PlacaDido
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#OAC_PlacaDido
 welcome:OAC_PlacaDido rdf:type owl:NamedIndividual ,
                                welcome:RegistrationOffice .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Passport_renewal
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Passport_renewal
 welcome:Passport_renewal rdf:type owl:NamedIndividual ,
                                   <http://www.daml.org/services/owl-s/1.1/Service.owl#Service> ;
                          welcome:isRegistered "false"^^xsd:boolean .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Pending
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Pending
 welcome:Pending rdf:type owl:NamedIndividual ,
                          welcome:DIPStatus .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Servei_de_primera_acollida_Terrassa
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Servei_de_primera_acollida_Terrassa
 welcome:Servei_de_primera_acollida_Terrassa rdf:type owl:NamedIndividual .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Spain
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Spain
 welcome:Spain rdf:type owl:NamedIndividual ,
                        welcome:Country .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#SpatialLocation_1
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#SpatialLocation_1
 welcome:SpatialLocation_1 rdf:type owl:NamedIndividual ,
                                    welcome:SpatialLocation ;
                           welcome:hasAltAddress "Tsimiski 7"^^xsd:string .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Syria
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Syria
 welcome:Syria rdf:type owl:NamedIndividual .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#TCNClarifyRequest
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#TCNClarifyRequest
 welcome:TCNClarifyRequest rdf:type owl:NamedIndividual ,
                                    welcome:DIPStatus .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Terrassa
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Terrassa
 welcome:Terrassa rdf:type owl:NamedIndividual ,
                           welcome:City .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#TopicSwitch
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#TopicSwitch
 welcome:TopicSwitch rdf:type owl:NamedIndividual ,
                              welcome:DIPStatus .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#UnclearAnalysis
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#UnclearAnalysis
 welcome:UnclearAnalysis rdf:type owl:NamedIndividual ,
                                  welcome:DIPStatus .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#Weekday
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#Weekday
 welcome:Weekday rdf:type owl:NamedIndividual ,
                          welcome:Day .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#carrer_de_san_sebastia
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#carrer_de_san_sebastia
 welcome:carrer_de_san_sebastia rdf:type owl:NamedIndividual ,
                                         welcome:StreetName ;
                                rdfs:label "Carrer de Sant Sebastia" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#carrer_de_valencia
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#carrer_de_valencia
 welcome:carrer_de_valencia rdf:type owl:NamedIndividual ,
                                     welcome:StreetName ;
                            rdfs:label "Carrer de Valencia" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#catalanLanguage
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#catalanLanguage
 welcome:catalanLanguage rdf:type owl:NamedIndividual ,
                                  welcome:Course ;
                         welcome:hasCourseName "Catalan" ;
                         welcome:hasNumberHours "90h" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#catalan_language
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#catalan_language
 welcome:catalan_language rdf:type owl:NamedIndividual ,
                                   welcome:Course ;
-                         welcome:hasClosingTime <https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#21> ;
-                         welcome:hasOpeningTime <https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#19> ;
+                         welcome:hasClosingTime <https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#21> ;
+                         welcome:hasOpeningTime <https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#19> ;
                          welcome:hasOperatingDay welcome:Friday ,
                                                  welcome:Monday ;
                          welcome:isPovidedBy welcome:training_office_1 .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#col_legi_sagrat_cor
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#col_legi_sagrat_cor
 welcome:col_legi_sagrat_cor rdf:type owl:NamedIndividual ,
                                      welcome:Building ,
                                      welcome:TrainingOffice ;
                             rdfs:label "Col legi Sagrat Cor" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#first_reception_process
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#first_reception_process
 welcome:first_reception_process rdf:type owl:NamedIndividual ,
                                          <http://www.daml.org/services/owl-s/1.1/Process.owl#Process> .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#first_reception_result
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#first_reception_result
 welcome:first_reception_result rdf:type owl:NamedIndividual ,
                                         <http://www.daml.org/services/owl-s/1.1/Process.owl#Result> .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#hosting_center
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#hosting_center
 welcome:hosting_center rdf:type owl:NamedIndividual ,
                                 welcome:HostingInformation .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#labourCourse
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#labourCourse
 welcome:labourCourse rdf:type owl:NamedIndividual ,
                               welcome:Course ;
                      welcome:hasCourseName "Labour Market and Employment" ;
                      welcome:hasNumberHours "15h" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#module_a
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#module_a
 welcome:module_a rdf:type owl:NamedIndividual ,
                           welcome:LanguageModule ;
                  welcome:offersCourse welcome:catalanLanguage ,
@@ -1638,7 +1638,7 @@ welcome:module_a rdf:type owl:NamedIndividual ,
                  rdfs:label "informLanguageModule" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#module_b
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#module_b
 welcome:module_b rdf:type owl:NamedIndividual ,
                           welcome:LabourModule ;
                  welcome:offersCourse welcome:labourCourse ;
@@ -1646,7 +1646,7 @@ welcome:module_b rdf:type owl:NamedIndividual ,
                  rdfs:label "informLabourModule" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#module_c
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#module_c
 welcome:module_c rdf:type owl:NamedIndividual ,
                           welcome:SocietyModule ;
                  welcome:offersCourse welcome:societyCourse ;
@@ -1654,138 +1654,138 @@ welcome:module_c rdf:type owl:NamedIndividual ,
                  rdfs:label "informSocietyModule" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#physical_address_1
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#physical_address_1
 welcome:physical_address_1 rdf:type owl:NamedIndividual ,
                                     welcome:PhysicalAddress ;
                            welcome:hasCity welcome:Terrassa ;
                            welcome:hasCountry welcome:Spain ;
                            welcome:hasStreetName welcome:carrer_de_san_sebastia ;
-                           welcome:hasStreetNumber <https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#66> ;
+                           welcome:hasStreetNumber <https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#66> ;
                            rdfs:comment "" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#physical_address_2
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#physical_address_2
 welcome:physical_address_2 rdf:type owl:NamedIndividual ,
                                     welcome:PhysicalAddress ;
                            welcome:hasCity welcome:Terrassa ;
                            welcome:hasCountry welcome:Spain ;
                            welcome:hasStreetName welcome:raval_de_montserrat ;
-                           welcome:hasStreetNumber <https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#14> .
+                           welcome:hasStreetNumber <https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#14> .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#physical_address_3
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#physical_address_3
 welcome:physical_address_3 rdf:type owl:NamedIndividual ,
                                     welcome:PhysicalAddress ;
                            welcome:hasCity welcome:Terrassa ;
                            welcome:hasCountry welcome:Spain ;
                            welcome:hasStreetName welcome:carrer_de_valencia ;
-                           welcome:hasStreetNumber <https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#142> .
+                           welcome:hasStreetNumber <https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#142> .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#physical_address_4
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#physical_address_4
 welcome:physical_address_4 rdf:type owl:NamedIndividual ,
                                     welcome:PhysicalAddress ;
                            welcome:hasCity welcome:Terrassa ;
                            welcome:hasName welcome:Servei_de_primera_acollida_Terrassa ;
                            welcome:hasStreetName welcome:Crta._de_Montcada ;
-                           welcome:hasStreetNumber <https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#596> ;
-                           welcome:hasTelephone <https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#937_315_982> ;
+                           welcome:hasStreetNumber <https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#596> ;
+                           welcome:hasTelephone <https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#937_315_982> ;
                            welcome:hasWebpage <https://www.terrassa.cat/primera-acollida-ciutadania> ;
-                           welcome:hasZipCode <https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#08223> .
+                           welcome:hasZipCode <https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#08223> .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#raval_de_montserrat
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#raval_de_montserrat
 welcome:raval_de_montserrat rdf:type owl:NamedIndividual ,
                                      welcome:StreetName ;
                             rdfs:label "Raval de Montserrat" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#registration_office_terrassa
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#registration_office_terrassa
 welcome:registration_office_terrassa rdf:type owl:NamedIndividual ,
                                               welcome:RegistrationOffice ;
-                                     welcome:hasClosingTime <https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#15> ;
-                                     welcome:hasOpeningTime <https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#9> ;
+                                     welcome:hasClosingTime <https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#15> ;
+                                     welcome:hasOpeningTime <https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#9> ;
                                      welcome:hasOperatingDay welcome:Weekday ;
                                      welcome:hasPhysicalAddress welcome:physical_address_2 .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#societyCourse
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#societyCourse
 welcome:societyCourse rdf:type owl:NamedIndividual ,
                                welcome:Course ;
                       welcome:hasCourseName "Your municipality and the services you can apply for." ;
                       welcome:hasNumberHours "15h" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#spanishLanguage
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#spanishLanguage
 welcome:spanishLanguage rdf:type owl:NamedIndividual ,
                                  welcome:Course ;
                         welcome:hasCourseName "Spanish" ;
                         welcome:hasNumberHours "90h" .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#training_office_1
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#training_office_1
 welcome:training_office_1 rdf:type owl:NamedIndividual ,
                                    welcome:TrainingOffice ;
                           welcome:hasName welcome:col_legi_sagrat_cor ;
                           welcome:offersCourse welcome:catalan_language .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#08223
-<https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#08223> rdf:type owl:NamedIndividual ,
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#08223
+<https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#08223> rdf:type owl:NamedIndividual ,
                                                                                              welcome:ZipCode .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#1
-<https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#1> rdf:type owl:NamedIndividual ,
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#1
+<https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#1> rdf:type owl:NamedIndividual ,
                                                                                          welcome:Time .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#14
-<https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#14> rdf:type owl:NamedIndividual ,
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#14
+<https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#14> rdf:type owl:NamedIndividual ,
                                                                                           welcome:StreetNumber .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#142
-<https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#142> rdf:type owl:NamedIndividual ,
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#142
+<https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#142> rdf:type owl:NamedIndividual ,
                                                                                            welcome:StreetNumber .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#15
-<https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#15> rdf:type owl:NamedIndividual ,
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#15
+<https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#15> rdf:type owl:NamedIndividual ,
                                                                                           welcome:Time .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#19
-<https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#19> rdf:type owl:NamedIndividual ,
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#19
+<https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#19> rdf:type owl:NamedIndividual ,
                                                                                           welcome:Time .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#21
-<https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#21> rdf:type owl:NamedIndividual ,
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#21
+<https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#21> rdf:type owl:NamedIndividual ,
                                                                                           welcome:Time .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#35
-<https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#35> rdf:type owl:NamedIndividual .
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#35
+<https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#35> rdf:type owl:NamedIndividual .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#596
-<https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#596> rdf:type owl:NamedIndividual ,
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#596
+<https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#596> rdf:type owl:NamedIndividual ,
                                                                                            welcome:StreetNumber .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#66
-<https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#66> rdf:type owl:NamedIndividual ,
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#66
+<https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#66> rdf:type owl:NamedIndividual ,
                                                                                           welcome:StreetNumber .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#9
-<https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#9> rdf:type owl:NamedIndividual ,
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#9
+<https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#9> rdf:type owl:NamedIndividual ,
                                                                                          welcome:Time .
 
 
-###  https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#937_315_982
-<https://github.com/AkbarKazimov/Experiment/edit/master/Experiment/File.ttl#937_315_982> rdf:type owl:NamedIndividual ,
+###  https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#937_315_982
+<https://raw.githubusercontent.com/AkbarKazimov/Experiment/master/Experiment/File.ttl#937_315_982> rdf:type owl:NamedIndividual ,
                                                                                                    welcome:Telephone_number .
 
 
